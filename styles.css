@@ -16,7 +16,8 @@ header {
     font-size: 2em;
 }
 
-.bannerimg {
-    height: 15px;
-    width: 15px;
+img {
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 450px;
 }
