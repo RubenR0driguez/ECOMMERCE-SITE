@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./styles.css">
         <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
-        <title>caracara</title>
+        <title>CaraCara</title>
     </head>
     <body>
         <header>    
@@ -78,6 +78,7 @@
                                 <span class="title">MUNDO Bowls</span>
                                 <span class="price">$48.00</span>
                             </section>
+                            <hr>
                             <section class="par">
                                 <p> Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.</p>
                             </section>
@@ -245,8 +246,44 @@
             <!-- Contacts -->
             <section id="Contacts">
                 <div class="sectiontitle">CONTACT US</div>
+                <form action="#">
+                    <label for="email">
+                        Enter your email:
+                    </label><br>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="message">Message</label><br>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+                    <input type="submit" value="Send">
+                </form>
             </section>
         </main>
-        <footer></footer>
+        <footer>
+            <section class="left">
+                <div class="lefticon">
+                    <img src="./assets/icons8-youtube-96.png" alt="Favicon for Youtube">
+                    <img src="/assets/icons8-facebook-96 (1).png" alt="Favicon for Facebook">
+                </div>
+                <div class="bttmtext">
+                    <p>
+                        Sed lectus. Donec mollis hendrerit risus.
+                    </p>
+                </div>
+            </section>
+
+            <span class="footer">CARA <img src="./assets/icons8-pottery-96.png" alt="Pottery Icon">CARA</span>
+
+            <section class="right">
+                <div class="righticon"> 
+                    <img src="./assets/icons8-twitter-96.png" alt="Favicon for Twitter">
+                    <img src="./assets/icons8-instagram-96.png" alt="Favicon for Facebook">
+                </div>
+                <div class="bttmtext">
+                    <p>
+                        Sed lectus. Donec mollis hendrerit risus.
+                    </p>
+                </div>
+            </section>
+            <section class="copyright">&#64;Copyright 2015 - 2020</section>            
+        </footer>
     </body>
 </html>
