@@ -19,7 +19,7 @@ header {
 img {
     border: 1px solid #ddd;
     padding: 5px;
-    width: 450px;
+    width: 200px;
 }
 
 #Home {
@@ -40,4 +40,5 @@ img {
 
 footer {
     background-color: darkmagenta;
+    
 }
