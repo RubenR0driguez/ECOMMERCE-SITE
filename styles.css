@@ -21,3 +21,19 @@ img {
     padding: 5px;
     width: 450px;
 }
+
+#Home {
+    background-color: blue;
+}
+
+#About {
+    background-color: aqua;
+}
+
+#Products {
+    background-color: coral;
+}
+
+#Contacts {
+    background-color: darkgreen;
+}
