@@ -11,17 +11,21 @@ html {
     font-size: 62.5%;
 }
 
+/* header classes: header */
+
 header {
     background-color: brown;
     font-size: 2em;
 }
 
+/* img clases: bannerimg, leftimg, rightimg, picture */
 img {
     border: 1px solid #ddd;
     padding: 5px;
     width: 200px;
 }
 
+/* home classes: banner, toptext, bttmtext */
 #Home {
     background-color: blue;
 }
